@@ -1,0 +1,85 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SimulacaoActivity">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="274dp"
+        android:layout_gravity="right|center_vertical"
+        android:weightSum="1">
+
+
+
+
+        <!-- Campos aqui -->
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.13">
+
+            <EditText
+                android:layout_width="163dp"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:hint="Desmame%"
+                android:id="@+id/editText"
+                android:layout_gravity="center_vertical"
+                android:text="0" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:hint="Mortalidade%"
+                android:ems="10"
+                android:id="@+id/editText2"
+                android:layout_gravity="center_vertical|right"
+                android:text="0" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.13">
+
+            <EditText
+                android:layout_width="153dp"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:id="@+id/editText7"
+                android:hint="Lotação(UA/ha)"
+                android:layout_weight="0.12"
+                android:layout_gravity="center_vertical"
+                android:text="0" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:id="@+id/editText6"
+                android:hint="Idade(1-3 anos)"
+                android:layout_weight="0.81"
+                android:layout_gravity="center_vertical"
+                android:text="0" />
+        </LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Simular"
+            android:id="@+id/button"
+            android:layout_gravity="center_horizontal" />
+
+    </LinearLayout>
+
+</FrameLayout>

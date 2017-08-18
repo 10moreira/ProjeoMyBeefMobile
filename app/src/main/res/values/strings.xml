@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">AppMyBeefBeta</string>
+    <string name="login">Login</string>
+    <string name="Cria_Login">Criar Login</string>
+    <string name="propriedade">Propriedade</string>
+    <string name="simulacao">Simulação</string>
+    <string name="Sair">Sair</string>
+    <string name="registro_salvo">Registro salvo com sucesso!</string>
+    <string name="erro_salvar">Erro ao salvar!</string>
+    <string name="title_activity_usuario">UsuarioActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_propriedade">PropriedadeActivity</string>
+    <string name="title_activity_simulacao">SimulacaoActivity</string>
+</resources>
+
